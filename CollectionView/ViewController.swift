@@ -18,17 +18,12 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     let movies = ["logo","logo2","logo3","logo4","logo5","logo","logo2","logo3","logo4","logo5","logo","logo2","logo3","logo4","logo5","logo","logo2","logo3","logo4","logo5","logo","logo2","logo3","logo4","logo5","logo","logo2","logo3","logo4","logo5","logo","logo2","logo3","logo4","logo5","logo","logo2","logo3","logo4","logo5","logo","logo2","logo3","logo4","logo5","logo","logo2","logo3","logo4","logo5","logo","logo2","logo3","logo4","logo5","logo","logo2","logo3","logo4","logo5"]
     
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         ParentCV.delegate = self
         ParentCV.dataSource = self
-        
         ParentCV.register(UINib(nibName: "CellVC", bundle: nil), forCellWithReuseIdentifier: "ParentCell")
-        
-        
         
     }
     
@@ -38,7 +33,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
                 let height  = (view.frame.height)/4
                 return CGSize(width: width, height: height)
         }
-
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return categrayname.count
@@ -60,10 +54,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         self.navigationController?.pushViewController(secondVC, animated: true)
         secondVC.strimage = movies[indexPath.row]
         secondVC.strname = categrayname[indexPath.row]
-        
-        
-    }
-
-    
+        }
 }
 
