@@ -13,6 +13,9 @@
 		F13141C027E0939D00585258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13141BE27E0939D00585258 /* Main.storyboard */; };
 		F13141C227E093A000585258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13141C127E093A000585258 /* Assets.xcassets */; };
 		F13141C527E093A000585258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13141C327E093A000585258 /* LaunchScreen.storyboard */; };
+		F13141CE27E0A28500585258 /* CellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13141CC27E0A28500585258 /* CellVC.swift */; };
+		F13141CF27E0A28500585258 /* CellVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13141CD27E0A28500585258 /* CellVC.xib */; };
+		F187263627E0C87600C3CA8C /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F187263527E0C87600C3CA8C /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		F13141C127E093A000585258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F13141C427E093A000585258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F13141C627E093A000585258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13141CC27E0A28500585258 /* CellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellVC.swift; sourceTree = "<group>"; };
+		F13141CD27E0A28500585258 /* CellVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellVC.xib; sourceTree = "<group>"; };
+		F187263527E0C87600C3CA8C /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				F13141C127E093A000585258 /* Assets.xcassets */,
 				F13141C327E093A000585258 /* LaunchScreen.storyboard */,
 				F13141C627E093A000585258 /* Info.plist */,
+				F13141CC27E0A28500585258 /* CellVC.swift */,
+				F13141CD27E0A28500585258 /* CellVC.xib */,
+				F187263527E0C87600C3CA8C /* DetailVC.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13141CF27E0A28500585258 /* CellVC.xib in Resources */,
 				F13141C527E093A000585258 /* LaunchScreen.storyboard in Resources */,
 				F13141C227E093A000585258 /* Assets.xcassets in Resources */,
 				F13141C027E0939D00585258 /* Main.storyboard in Resources */,
@@ -138,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F187263627E0C87600C3CA8C /* DetailVC.swift in Sources */,
+				F13141CE27E0A28500585258 /* CellVC.swift in Sources */,
 				F13141BD27E0939D00585258 /* ViewController.swift in Sources */,
 				F13141B927E0939D00585258 /* AppDelegate.swift in Sources */,
 				F13141BB27E0939D00585258 /* SceneDelegate.swift in Sources */,
