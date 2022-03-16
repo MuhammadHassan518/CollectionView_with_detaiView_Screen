@@ -16,6 +16,10 @@
 		F13141CE27E0A28500585258 /* CellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13141CC27E0A28500585258 /* CellVC.swift */; };
 		F13141CF27E0A28500585258 /* CellVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13141CD27E0A28500585258 /* CellVC.xib */; };
 		F187263627E0C87600C3CA8C /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F187263527E0C87600C3CA8C /* DetailVC.swift */; };
+		F1F600DF27E1BA5200F6C1B6 /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F600DE27E1BA5200F6C1B6 /* TableVC.swift */; };
+		F1F600E127E1C3CE00F6C1B6 /* ContactVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F600E027E1C3CE00F6C1B6 /* ContactVCViewController.swift */; };
+		F1F600EA27E1D16900F6C1B6 /* ContactVCxibfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F600E827E1D16900F6C1B6 /* ContactVCxibfile.swift */; };
+		F1F600EB27E1D16900F6C1B6 /* ContactVCxibfile.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1F600E927E1D16900F6C1B6 /* ContactVCxibfile.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		F13141CC27E0A28500585258 /* CellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellVC.swift; sourceTree = "<group>"; };
 		F13141CD27E0A28500585258 /* CellVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellVC.xib; sourceTree = "<group>"; };
 		F187263527E0C87600C3CA8C /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		F1F600DE27E1BA5200F6C1B6 /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
+		F1F600E027E1C3CE00F6C1B6 /* ContactVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVCViewController.swift; sourceTree = "<group>"; };
+		F1F600E827E1D16900F6C1B6 /* ContactVCxibfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVCxibfile.swift; sourceTree = "<group>"; };
+		F1F600E927E1D16900F6C1B6 /* ContactVCxibfile.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactVCxibfile.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,10 @@
 				F13141CC27E0A28500585258 /* CellVC.swift */,
 				F13141CD27E0A28500585258 /* CellVC.xib */,
 				F187263527E0C87600C3CA8C /* DetailVC.swift */,
+				F1F600DE27E1BA5200F6C1B6 /* TableVC.swift */,
+				F1F600E027E1C3CE00F6C1B6 /* ContactVCViewController.swift */,
+				F1F600E827E1D16900F6C1B6 /* ContactVCxibfile.swift */,
+				F1F600E927E1D16900F6C1B6 /* ContactVCxibfile.xib */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -138,6 +150,7 @@
 				F13141C527E093A000585258 /* LaunchScreen.storyboard in Resources */,
 				F13141C227E093A000585258 /* Assets.xcassets in Resources */,
 				F13141C027E0939D00585258 /* Main.storyboard in Resources */,
+				F1F600EB27E1D16900F6C1B6 /* ContactVCxibfile.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F187263627E0C87600C3CA8C /* DetailVC.swift in Sources */,
+				F1F600EA27E1D16900F6C1B6 /* ContactVCxibfile.swift in Sources */,
 				F13141CE27E0A28500585258 /* CellVC.swift in Sources */,
 				F13141BD27E0939D00585258 /* ViewController.swift in Sources */,
+				F1F600DF27E1BA5200F6C1B6 /* TableVC.swift in Sources */,
 				F13141B927E0939D00585258 /* AppDelegate.swift in Sources */,
+				F1F600E127E1C3CE00F6C1B6 /* ContactVCViewController.swift in Sources */,
 				F13141BB27E0939D00585258 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
