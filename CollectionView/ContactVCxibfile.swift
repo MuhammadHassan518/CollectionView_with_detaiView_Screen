@@ -34,15 +34,10 @@ class ContactVCxibfile: UITableViewCell,UICollectionViewDelegate,UICollectionVie
         categrayname.count
     }
     
-    
-    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell : CellVC = lblContactcellxib.dequeueReusableCell(withReuseIdentifier: "ParentCell", for: indexPath) as! CellVC
         cell.lblLabel.text = categrayname[indexPath.row]
         cell.lblImage.image = UIImage(named: movies[indexPath.row])
         return cell
     }
-    
-    
-    
 }
